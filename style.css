@@ -1,113 +1,118 @@
 body {
-    color: black;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    font-family: arial;
-  }
-  
-  .listContainer {
-    width: 50vw;
-    background-color: white;
-    margin: 10vh 0vw;
-   
-  }
-  
-  
-  .collapsible {
-    font-family: arial;
-    display: inline-flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: white;
-    box-shadow: none;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border-style: solid solid none solid;
-    border-width: medium;
-    border-color: black;
-    text-align: left;
-    outline: none;
-    font-size: 25px;
-    max-height: 300px;
-    -webkit-transition: margin 0.5s ease-out;
-      -moz-transition: margin 0.5s ease-out;
-      -o-transition: margin 0.5s ease-out;
-  }
-  
-  .active, .collapsible:hover {
-    background-color: white;
-    cursor:pointer;
-    margin-bottom: 25px;
-  }
-  
-  .noBullets {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .rest {
-    margin-top: -10vh;
-  }
-  
-  .last {
-    display: inline-flex;
-    justify-content: center;
-    height: 110px;
-    margin-top: -30px;
-    background-color: white;
-    box-shadow: none;
-    cursor: pointer;
-    padding: 0x;
-    width: 50vw;
-    border-style: solid none none none;
-    border-width: medium;
-    border-color: black;
-    text-align: left;
-    font-size: 25px;
-    max-height: 95px;
-  }
-  
-  .name {
-    display: inline;
-    flex-wrap: wrap;
-    padding-right: 10px;
-  }
-  
-  .nameInput {
-    width: 20vw;
-    border-bottom: 2px solid black;
-    display: inline-block;
-  }
-  
-  .date {
-    display: inline;
-    flex-wrap: wrap;
-    padding-right: 10px;
-  }
-  
-  .dateInput {
-    width: 10vw;
-    border-bottom: 2px solid black;
-    display: inline-block;
-  }
-  
-  .content {
-    font-family: arial;
-    font-size: 25px;
-    padding: 0 5vw;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: white;
-    border-style: none solid none solid;
-    border-width: medium;
-  }
-  
-  
-  .extraSpace {
-    margin-bottom: 10vh;
-  }
-  
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+}
+
+.listContainer {
+  width: 50vw;
+  background-color: white;
+  margin: 10vh 0vw;
+ 
+}
+
+
+.collapsible {
+  font-family: arial;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-style: solid solid none solid;
+  border-width: medium;
+  border-color: black;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  max-height: 300px;
+  -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.active, .collapsible:hover {
+  background-color: white;
+  cursor:pointer;
+  margin-bottom: 25px;
+}
+
+.noBullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rest {
+  margin-top: -10vh;
+}
+
+.last {
+  display: inline-flex;
+  justify-content: center;
+  height: 110px;
+  margin-top: -5.5vh;
+  background-color: white;
+  box-shadow: none;
+  cursor: pointer;
+  padding: 0x;
+  width: 50vw;
+  border-style: solid none none none;
+  border-width: medium;
+  border-color: black;
+  text-align: left;
+  font-size: 25px;
+  max-height: 95px;
+}
+
+.name {
+  display: inline;
+  flex-wrap: wrap;
+  padding-right: 10px;
+}
+
+.nameInput {
+  width: 20vw;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+.date {
+  display: inline;
+  flex-wrap: wrap;
+  padding-right: 10px;
+}
+
+.dateInput {
+  width: 10vw;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+.content {
+  font-family: arial;
+  font-size: 25px;
+  padding: 0 5vw;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  border-style: none solid none solid;
+  border-width: medium;
+}
+
+
+.extraSpace {
+  margin-bottom: 10vh;
+}
+
+.bottom {
+  display: flex;
+  align-items: flex-end;
+  background-color: blue;
+}
